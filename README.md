@@ -22,7 +22,7 @@ A rechargeable, pocket-sized **Pomodoro timer** with an OLED display and colour-
 - [x] Gerber and drill files
 - [x] Bill of materials (BOM)
 - [ ] Order the PCB and parts
-- [ ] Firmware (Arduino, ESP32-C3)
+- [x] Firmware: first version (untested on hardware)
 - [ ] Assembly and testing
 - [ ] Enclosure
 
@@ -52,6 +52,7 @@ PCB/                 KiCad 10 project (schematic + board)
 PCB/libs/            Symbol, footprint and 3D libraries used by the project
 PCB/production/      Gerber and drill files for manufacturing
 renders/             3D renders of the board
+Firmware/            Arduino firmware for the XIAO ESP32-C3
 kitsujikan_BOM.csv   Bill of materials with sources and estimated prices
 ```
 
@@ -93,7 +94,7 @@ Prices in the CSV are rough estimates. Many Amazon items come in multi-packs, so
 
 ## Firmware
 
-Coming soon. It will be an Arduino sketch for the ESP32-C3, using Adafruit SSD1306 / GFX for the display.
+Arduino (C++) for the ESP32-C3, in [`Firmware/`](Firmware/). It covers the timer state machine, debounced buttons (tap / hold), buzzer melodies, the OLED screens, battery percentage, and deep sleep with wake-on-button. Build steps and controls are in [`Firmware/README.md`](Firmware/README.md). The timer logic has laptop unit tests in `Firmware/test/`.
 
 ## Acknowledgements
 
