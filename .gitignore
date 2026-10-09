@@ -1,0 +1,17 @@
+# KiCad lock, backup and cache files
+*.lck
+~*
+*.history/*
+fp-info-cache
+_autosave-*
+\#auto_saved_files\#
+# Per-user KiCad view settings
+*.kicad_prl
+# DRC/ERC reports (regenerate any time)
+*.rpt
+# Build zips (zip PCB/production when ordering)
+*.zip
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
