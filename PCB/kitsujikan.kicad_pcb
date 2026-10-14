@@ -968,6 +968,7 @@
 		(property "Reference" "H1"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "0d9f1687-07b3-4fd2-9e7d-6207bff94bce")
 			(effects
 				(font
@@ -1823,6 +1824,7 @@
 		(property "Reference" "H4"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "fac45568-aae1-467b-aa64-8ca8828e2693")
 			(effects
 				(font
@@ -3037,6 +3039,7 @@
 		(property "Reference" "H3"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "a5a9471d-0788-481d-957e-d257b95dd6ef")
 			(effects
 				(font
@@ -4129,7 +4132,7 @@
 		(descr "JST PH series connector, S2B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)")
 		(tags "connector JST PH horizontal")
 		(property "Reference" "J1"
-			(at 1 -2.55 180)
+			(at 5.5 2.45 180)
 			(layer "F.SilkS")
 			(uuid "45568c61-3992-47e8-94ff-73f311c8b6db")
 			(effects
@@ -5438,6 +5441,7 @@
 		(property "Reference" "H2"
 			(at 0 -4.15 0)
 			(layer "F.SilkS")
+			(hide yes)
 			(uuid "37195f23-4730-4341-a7ca-ce7941239e03")
 			(effects
 				(font
@@ -5771,8 +5775,8 @@
 			(justify left)
 		)
 	)
-	(gr_text "BAT-"
-		(at 145.5 92 0)
+	(gr_text "-"
+		(at 146 92 0)
 		(layer "F.SilkS")
 		(uuid "bdc81c28-7bd8-4011-bc40-7d394e560a2f")
 		(effects
@@ -5783,8 +5787,8 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "BAT+"
-		(at 145.5 96 0)
+	(gr_text "+"
+		(at 146 96 0)
 		(layer "F.SilkS")
 		(uuid "90c3eda4-20da-42d7-9d59-c9337f7db13a")
 		(effects
