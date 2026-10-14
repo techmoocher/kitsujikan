@@ -5747,6 +5747,30 @@
 		(layer "Edge.Cuts")
 		(uuid "24ea5d94-90ce-42ae-9b50-c9f763573e28")
 	)
+	(gr_text "BAT-"
+		(at 145.5 92 0)
+		(layer "F.SilkS")
+		(uuid "bdc81c28-7bd8-4011-bc40-7d394e560a2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BAT+"
+		(at 145.5 96 0)
+		(layer "F.SilkS")
+		(uuid "90c3eda4-20da-42d7-9d59-c9337f7db13a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
 	(segment
 		(start 131.88 86.74)
 		(end 131.88 111.62)
