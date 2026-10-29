@@ -15,4 +15,4 @@
 "R3, R5","2","10 kΩ, 1/4 W","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","DigiKey","https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT10K0/1741265","0.027","Pull-down resistors for buttons"
 "R4","1","1 kΩ, 1/4 W","Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal","DigiKey","https://www.digikey.com/en/products/detail/stackpole-electronics-inc/CF14JT1K00/1741314","0.027","Current-limiting resistor for the buzzer"
 "C1","1","100 nF ceramic capacitor (104)","Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm","DigiKey","https://www.digikey.com/en/products/detail/onsemi/1N4148/458603","0.1","Decoupling capacitor for the ESP32-C3"
-"PCB","5","2-layer PCB, 65 x 90 mm, 1.6 mm, HASL","—","JLCPCB","https://jlcpcb.com","4.00","Printed circuit board for the project"
+"PCB","5","2-layer PCB, 65 x 90 mm, 1.6 mm, HASL","—","JLCPCB","https://jlcpcb.com","0.80","Printed circuit board for the project"
